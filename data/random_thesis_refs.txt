@@ -1,0 +1,126 @@
+25* 1. Fang X., Sastry A., Mih N., et al. (2017) Global transcriptional regulatory network for Escherichia coli robustly connects gene expression to transcription factor activities. Proc. Natl. Acad. Sci. USA. Vol. 114 pp. 10286-10291
+
+93* 2. Schmidt A., Kochanowski K., Vedelaar S., et al. (2016) The quantitative and condition-dependent Escherichia coli proteome. Nat. Biotechnol. Vol. 34 pp. 104-110
+
+134* 3. Winder C.L., Dunn W.B., Schuler S., et al. (2008) Global metabolic profiling of Escherichia coli cultures: an evaluation of methods for quenching and extraction of intracellular metabolites. Anal. Chem. Vol. 80 pp. 2939-2948
+
+
+1* 4. Watson J.D., Sanderson S., Ezersky A., et al. (2007) Towards fully automated structure-based function prediction in structural genomics: a case study. J. Mol. Biol. 367, 1511-22.
+
+
+2* 5. Konc J., Hodoscek M., Ogrizek M., et al. (2013) Structure-based function prediction of uncharacterized protein using binding sites comparison. PLoS Comput. Biol. Vol. 9:e1003341.
+
+
+125* 6. Altschul, S.F., Gish, W., Miller, W., et al. (1990) Basic local alignment search tool. J. Mol. Biol. Vol. 215 pp. 403–410.
+
+14* 7. Szklarczyk D., Franceschini A., Wyder S., et al. (2015) STRING v10: protein-protein interaction networks, integrated over the tree of life. Nucleic Acids Res. Vol. 43 pp. D447-D452.
+
+
+85* 8. Kim H., Shim J.E., Shin J. et al. (2015) EcoliNet: a database of cofunctional gene network for Escherichia coli. Database (Oxford) bav001.
+
+87* 9. Rhee S.Y. & Mutwil M. (2014) Towards revealing the functions of all genes in plants. Trends Plant Sci. Vol. 19 pp. 212-221.  
+
+88* 10. Hu P., Janga S.C., Babu M. et al. (2009) Global functional atlas of Escherichia coli encompassing previously uncharacterized proteins. PLoS Biol. Vol.7:e96.
+
+90* 11. Chang Y.C., Zhenjun H.,  Rachlin J., et al. (2016) COMBREX-DB: an experiment centered database of protein function: knowledge, predictions and knowledge gaps. Nucleic Acids Res. Vol. 44 pp. 330-335.
+
+3* 12. Pedruzzi I., Rivoire C., Auchincloss A. H., et al. (2015) HAMAP in 2015: updates to the protein family classification and annotation system. Nucleic Acids Res. Vol. 43 pp. D1064-D1070.
+
+104* 13. Ghatak S.,  et al. (2018) The y-ome defines the thirty-four percent of Escherichia coli genes that lack experimental evidence of function. bioRxiv 328591. 
+
+5* 14. Miroslavova, N.S. & Busby, S.J. (2006) Investigations of the modular structure of bacterial promoters. Biochem Soc Symp. Vol. 73 pp. 1-10. 
+
+
+6*
+7*
+8*
+89*
+57* 
+11* 
+61* 
+64* 
+75* 
+48* 
+77 
+50  
+118 
+117
+67 
+68 
+31 
+59 
+69 
+72
+71 
+74 
+65*
+63 
+80 
+76 
+73 
+112 
+113 
+132 
+52 
+22 
+96 
+8 
+21 
+22 
+53 
+103 
+102 
+23 
+33 
+58
+9 
+10
+106 
+107 
+111 
+110 
+109 
+108 
+24 
+32 
+30 
+18*
+54 
+55 
+114 
+56 
+136 
+45 
+46 
+51 
+12 
+90 
+87 
+92 
+91 
+36 
+37 
+83 
+86 
+98*
+28*
+52*
+17*
+39*
+119
+120
+38
+129*
+40
+121
+41*
+122
+139
+43
+44
+123
+124
+126
+127
+105
+
