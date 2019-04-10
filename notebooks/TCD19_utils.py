@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib as mpl
+import numpy as np
 from matplotlib import rcParams
 rcParams['axes.titlepad'] = 20 
 
@@ -71,3 +72,37 @@ def set_plotting_style_2():
 
     #sns.set_palette("colorblind", color_codes=True)
     sns.set_context('notebook', rc=rc)
+
+
+def ecdf(x, plot = None, label = None):
+    '''
+	Compute and plot ECDF. 
+
+	----------------------
+	Inputs
+
+	x: array or list, distribution of a random variable
+    
+    plot: bool, if True return the plot of the ECDF
+
+    label: string, label for the plot
+	
+	Outputs 
+
+	x_sorted : sorted x array
+	ecdf : array containing the ECDF of x
+
+
+    '''
+    x_sorted = np.sort(x)
+    
+    n = len (x)
+    
+    ecdf = np.arange(0, len(x_sorted)) / len(x_sorted)
+    
+    if label is not None and plot is True: 
+        
+        plt.scatter(x_sorted, ecdf, alpha = 0.7, label = label)
+        
+    return x_sorted, ecdf
+
