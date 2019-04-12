@@ -106,3 +106,13 @@ def ecdf(x, plot = None, label = None):
         
     return x_sorted, ecdf
 
+def palette(cmap = None):
+
+	palette = sns.cubehelix_palette(start = 0, rot=0, hue = 1, light = 0.9, dark = 0.15)
+	
+
+	if cmap == True:
+		palette = sns.cubehelix_palette(start = 0, rot=0, hue = 1, light = 0.9, dark = 0.15, as_cmap = True)
+
+	return palette 
+
