@@ -1,3 +1,4 @@
+pymc3==3.3
 bokeh==1.0.4
 emcee==2.2.1
 holoviews==1.11.0
@@ -8,6 +9,7 @@ networkx==2.1
 numba==0.41.0
 python-louvain==0.10
 tensorflow==1.6.0
+squarify==0.4.
 Theano==1.0.1
 umap-learn==0.3.7
 xgboost==0.72
