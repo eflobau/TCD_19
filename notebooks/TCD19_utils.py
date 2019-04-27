@@ -116,3 +116,28 @@ def palette(cmap = None):
 
 	return palette 
 
+def net_stats(G):
+    
+    net_degree_distribution= []
+
+    for i in list(G.degree()):
+        net_degree_distribution.append(i[1])
+        
+    print("Number of nodes in the network: %d" %G.number_of_nodes())
+    print("Number of edges in the network: %d" %G.number_of_edges())
+    print("Avg node degree: %.2f" %np.mean(list(net_degree_distribution)))
+    print('Avg clustering coefficient: %.2f'%nx.cluster.average_clustering(G))
+    print('Network density: %.2f'%nx.density(G))
+
+    
+    fig, axes = plt.subplots(1,2, figsize=(10,4))
+
+    axes[0].hist(list(net_degree_distribution), bins=20, color = 'lightgreen')
+    axes[0].set_xlabel("Degree $k$")
+    #axes[0].set_ylabel("$P(k)$")
+    
+    axes[1].hist(list(nx.clustering(G).values()), bins= 20, color = 'lightgrey')
+    axes[1].set_xlabel("Clustering Coefficient $C$")
+    #axes[1].set_ylabel("$P(k)$")
+    axes[1].set_xlim([0,1])
+   
