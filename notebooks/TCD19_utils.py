@@ -73,8 +73,14 @@ def set_plotting_style_2():
     #sns.set_palette("colorblind", color_codes=True)
     sns.set_context('notebook', rc=rc)
 
+@numba.jit(nopython=True)
+def draw_bs_sample(data):
+    """
+    Draw a bootstrap sample from a 1D data set.
+    """
+    return np.random.choice(data, size=len(data))
 
-def ecdf(x, plot = None, label = None):
+def ecdf(x, plot = None, label = None, c = None):
     '''
 	Compute and plot ECDF. 
 
@@ -99,8 +105,12 @@ def ecdf(x, plot = None, label = None):
     n = len (x)
     
     ecdf = np.arange(0, len(x_sorted)) / len(x_sorted)
+
+     if label is not None and plot is True and c is not None: 
+        
+        plt.scatter(x_sorted, ecdf, alpha = 0.7, label = label, color = c)
     
-    if label is not None and plot is True: 
+    elif label is not None and plot is True: 
         
         plt.scatter(x_sorted, ecdf, alpha = 0.7, label = label)
         
