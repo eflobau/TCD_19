@@ -14,5 +14,4 @@ Theano==1.0.1
 umap-learn==0.3.7
 xgboost==0.72
 lightgbm==2.2.3
-nltk==3.2.2
 joblib==0.13.2
