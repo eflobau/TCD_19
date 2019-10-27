@@ -26,7 +26,7 @@ Happy coding
 
 
 ### Disclaimer:
-This repo was based on Justin Bois' BeBi103 course and on Jake Van der Plas Python for Data Science Handbook. 
+This repo was based on Justin Bois' BeBi103 course and on Jake Van der Plas' Python for Data Science Handbook. 
 
 ### License: 
 
