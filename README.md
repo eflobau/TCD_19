@@ -12,4 +12,9 @@ Para instalar las librerías necesarias adicionales a las distribudias por Anaco
 Happy coding ! 
 
 
+Disclaimer:
+This repo was based on Justin Bois' BeBi103 course and on Jake Van der Plas Python for Data Science Handbook. 
 
+License: 
+
+The code in this repo is all MIT licensed and the content is [CC-by-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). 
