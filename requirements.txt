@@ -9,9 +9,5 @@ networkx==2.1
 numba==0.41.0
 python-louvain==0.10
 tensorflow==1.13.1
-squarify==0.4.
-Theano==1.0.1
+squarify==0.4
 umap-learn==0.3.7
-xgboost==0.72
-lightgbm==2.2.3
-joblib==0.13.2
