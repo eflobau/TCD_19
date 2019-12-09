@@ -1,8 +1,6 @@
-title: Your Research Project Title
+title: Taller de Ciencia de datos.
 description: > # this means to ignore newlines until "baseurl:"
-  This website is an online repository for your manuscript. You should include a
-  concise (1-sentence) summary of your project here. This can be as simple as
-  the title of the paper.  
+  Website para el Taller de Ciencia de Datos (work-in-progress).   
 
 # permalink: ':title/'
 baseurl:  "/" # the subpath of your site, In most cases this can be left blank
@@ -10,8 +8,8 @@ url: "" # Base of your website.In most cases, this will be left blank
 
 # You can include social icons
 site-twitter: #if your site has a twitter account, enter it here
-social-github: RPGroup-PBoC # add your Github handle here.
-email: username@hostname.com
+social-github: manuflores # add your Github handle here.
+email: manuflores@caltech.edu
 
 # If you are using google analytics to track website traffic, you can insert the
 # tracking key below. It will be automatically inserted into the header of every
